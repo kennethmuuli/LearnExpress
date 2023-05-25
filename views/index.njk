@@ -1,0 +1,7 @@
+{% extends 'partials/layout.njk' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    {% for i in range(0,10) %}
+        <h1>Hello hello {{name + i}}</h1>
+    {% endfor %}
+{% endblock %}
